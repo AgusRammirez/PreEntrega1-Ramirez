@@ -1,8 +1,5 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import CartWidget from "./CartWidget";
 
 const NavBar = () => {
@@ -19,7 +16,7 @@ const NavBar = () => {
             <NavDropdown title="Categorias" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Poesia</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Filosofia</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Astrologia</NavDropdown.Item>              
+              <NavDropdown.Item href="#action/3.3">Astrologia</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <CartWidget/>
